@@ -1,0 +1,5 @@
+Execute (eval):
+  AssertEq py3eval('1 + 1'), 2
+
+Execute (version):
+  AssertEq py3eval('sys.version_info[:2]'), [3,6]
